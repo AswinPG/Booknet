@@ -1,0 +1,74 @@
+h1{
+  font-size: 70px;
+  font-family: COURIER;
+  font-weight: bold;
+  color: white;
+  grid-column: 2;
+  grid-row: 1;
+  text-align:top;
+  align-self: top;
+  justify-self:top;
+}
+body{
+  background-image:url("a.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#Content{
+  display: grid;
+  grid-template-columns: repeat(11,1fr);
+  /*max-width: 960px;*/
+  margin: 0 auto;
+  /*grid-column: 2/3;*/
+}
+
+#one{
+  border-radius: 15px;
+  grid-column: 4/8  ;
+  grid-row: 2;
+  background-color: rgba(55, 55, 55, 0.5);
+  padding: 10px;
+  text-align:  center;
+  color:white;
+}
+#details{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  align-items: center;
+}
+#details p{
+  text-align: left;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.input{
+  height: 20px;
+}
+.login{
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+}
+.login:hover{
+  box-shadow: 0 12px 16px 0 rgba(255,255,255,0.24),0 17px 50px 0 rgba(255,255,255,0.19);
+}
+h2{
+  font-size: 36px;
+}
+footer{
+  text-align: center;
+  color:white;
+}
+#logo{
+  height:70px;
+  width: 110px;
+  padding: 10px;
+  grid-column: 1/2;
+  align-items: right;
+  align-self: top;
+  justify-self: top;
+}
+#userdata p{
+  color: white;
+}
